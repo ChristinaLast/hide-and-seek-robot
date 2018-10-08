@@ -1,0 +1,126 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+	/*font-family:"verdana", "arial", "helvetica", "sans-serif";*/
+	font-family: "Helvetica Neue", Helvetica, Arial, Verdana, sans-serif;
+	text-decoration:none;
+	font-size:11px;
+	color:#222222;
+	/*line-height: 12px;*/
+	line-height: 1.4;
+}
+p, td {
+	font-family:"verdana", "arial", "helvetica", "sans-serif";
+	text-decoration:none;
+	font-size:11px;
+	color:#222222;
+	line-height: 12px;
+	margin: 0em 0em 1.0em 0;
+}
+a {
+	font-family:"verdana", "arial", "helvetica", "sans-serif";
+	text-decoration:underline;
+	font-size:10px;
+	color:#222222;
+	line-height: 12px
+}
+a:hover {
+	font-family:"verdana", "arial", "helvetica", "sans-serif";
+	text-decoration:none;
+	font-size:10px;
+	color:#222222;
+	line-height: 12px
+}
+.head {
+	font-family:"arial", "helvetica", "sans-serif";
+	text-decoration:none;
+	font-size:18px;
+	letter-spacing:3pt;
+	color:#bbbbbb;
+	line-height: 18px
+}
+.proDate {
+	font-family:"verdana", "arial", "helvetica", "sans-serif";
+	text-decoration:none;
+	font-size:10px;
+	letter-spacing:0pt;
+	color:#ffffff;
+	line-height: 12px
+}
+.proHead {
+	font-family:"verdana", "arial", "helvetica", "sans-serif";
+	text-decoration:none;
+	font-size:10px;
+	letter-spacing:0pt;
+	color:#000000;
+	line-height: 12px
+}
+.news {
+	font-family:"verdana", "arial", "helvetica", "sans-serif";
+	text-decoration:none;
+	font-size:10px;
+	color:#000000;
+	line-height: 12px
+}
+.small {
+	font-family:"verdana", "arial", "helvetica", "sans-serif";
+	text-decoration:none;
+	font-size: 9px;
+	color:#000000;
+	line-height: 10px
+}
+.cHead {
+	font-family:"verdana", "arial", "helvetica", "sans-serif";
+	text-decoration:none;
+	font-size:10px;
+	color:#333333;
+	line-height: 12px
+}
+.style1 {
+	color: #FF0000;
+	font-weight: bold;
+}
+.style2 {
+	color: #006699
+}
+.style3 {color: #778899}
+
+#wrap {
+	width:684px;
+	padding-top:32px;
+}
+.left_column{
+display:inline;
+float:left;
+margin-left:0px;
+margin-right:16px;
+width: 168px;
+text-align: right;
+}
+.right_column{
+display:inline;
+float:right;
+width: 500px;
+}
+.invisible_line{	
+display:inline;
+float:left;
+width: 684px;
+}
+
+.line{
+padding-top: 5px;		
+display:inline;
+float:left;
+width: 684px;
+}
+
+.style4 {font-size: 16px}
+
+hr {
+  border: 0;
+  color: #bbb;
+  background-color: #bbb;
+  height: 1px;
+}
