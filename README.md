@@ -20,11 +20,11 @@ Figure 3: Python 2 Code Part: Checks each image saved in the images folder to se
 
 Steps of implementation:
 1. Capture an image at each angle during a single rotation
-a. Determine how many photos are needed to capture all detail in a 360 degree rotation.
-b. Using Arduino, accelerate chassis at correct speed for correct time to pause at each 30 degree angle in 360 rotation.
-c. Using Arduino, send serial number to an ‘Image capture’ python program to take an image at each 30 degree angle.
-d. Use facial recognition machine learning program to attempt to detect a face in each image.
-e. Name image files ‘num.jpeg’ and send all image files to a folder called ‘Images’.
+  a. Determine how many photos are needed to capture all detail in a 360 degree rotation.
+  b. Using Arduino, accelerate chassis at correct speed for correct time to pause at each 30 degree angle in 360 rotation.
+  c. Using Arduino, send serial number to an ‘Image capture’ python program to take an image at each 30 degree angle.
+  d. Use facial recognition machine learning program to attempt to detect a face in each image.
+  e. Name image files ‘num.jpeg’ and send all image files to a folder called ‘Images’.
 2. Detect the face of the hider
 a. Use the machine learning face classification programme to identify potential faces in each image.
 b. Name each image containing a face ‘numFace.jpeg’ and send all face images to a folder called ‘FaceImages’.
