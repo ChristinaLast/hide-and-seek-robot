@@ -26,16 +26,16 @@ Steps of implementation:
 - Use facial recognition machine learning program to attempt to detect a face in each image.
 - Name image files ‘num.jpeg’ and send all image files to a folder called ‘Images’.
 2. Detect the face of the hider
-a. Use the machine learning face classification programme to identify potential faces in each image.
-b. Name each image containing a face ‘numFace.jpeg’ and send all face images to a folder called ‘FaceImages’.
+- Use the machine learning face classification programme to identify potential faces in each image.
+- Name each image containing a face ‘numFace.jpeg’ and send all face images to a folder called ‘FaceImages’.
 3. Move robot towards hider
-a. Use LCD screen on chassis to determine angle that image is captured from any given start angle (ranges from 0-(+180), 0-(-180)).
-b. Use this angle as signal to send serial number from python, (identifying the angle of the selected image for the arduino).
-c. Function in arduino to move forward a fixed amount (one step) at this given angle when serial is read.
+- Use LCD screen on chassis to determine angle that image is captured from any given start angle (ranges from 0-(+180), 0-(-180)).
+- Use this angle as signal to send serial number from python, (identifying the angle of the selected image for the arduino).
+- Function in arduino to move forward a fixed amount (one step) at this given angle when serial is read.
 4. Develop programme to display images to public
-a. Create title and instruction slide in ‘star wars screen title theme’.
-b. Draw live images into processing from ‘Images’ and ‘FaceImages’ folder and display them when specific keys are pressed.
-c. Reset programme after one round of ‘seeking’ is complete.
+- Create title and instruction slide in ‘star wars screen title theme’.
+- Draw live images into processing from ‘Images’ and ‘FaceImages’ folder and display them when specific keys are pressed.
+- Reset programme after one round of ‘seeking’ is complete.
 
 Figure 4; Processing Code: The gave the viewer the opportunity to learn about the project, see the images the robot was taking, and show the faces it found. Screenshot of how the processing code was presented on the screen.
 
