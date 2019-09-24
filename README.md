@@ -11,15 +11,15 @@ The concept is as follows: the project uses machine learning classification tech
 # Implementation Process
 There are two players, the hider (a person) and the seeker (the robot) and they play the game in free space. The game of hide and seek runs for a maximum number of timesteps. Within the number of time steps, the hider will attempt to move past the robot and collect a reward (perhaps enter a certain location in the room, or collect an item the robot is guarding). At each time step, the seeker will scan the room and capture images during the 360 degrees rotation. It will run a machine learning classification algorithm to identify faces from the captured images.  Each image is serialised and is described by the angle at which the image was captured. When a face is identified, the robot chassis moves to the correct angle of orientation and forward in attempt to catch the hider. The process is repeated until the hider is successfully caught, or the hider wins.
 
-![alt text](https://raw.githubusercontent.com/username/projectname/branch/path/to/img.png)
+![Arduino code to change angle of chassis](https://github.com/ChristinaLast/hide-and-seek-robot/blob/master/angle_changer.png)
 
 Figure 1: Part of Ardunio code where one can see how we implemented the angles that the robot turned at and the signals it sent to the Raspberry Pi.
 
-![alt text](https://raw.githubusercontent.com/username/projectname/branch/path/to/img.png)
+![Python code to capture image when each angle is reached](https://github.com/ChristinaLast/hide-and-seek-robot/blob/master/image_taker.png)
 
 Figure 2: Part 1 of Python Code: Reading in the serial number from the Arduino, so the Raspberry Pi knows when to take an image.
 
-![alt text](https://raw.githubusercontent.com/username/projectname/branch/path/to/img.png)
+![Python code to identify faces from images captured](https://github.com/ChristinaLast/hide-and-seek-robot/blob/master/face_checker.png)
 
 Figure 3: Python 2 Code Part: Checks each image saved in the images folder to see if there is a face. If there is a face send that number to the Arduino, if not send a random number. Wait for Arduino to send next serial number to delete the old images and restart the process.
 
