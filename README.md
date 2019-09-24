@@ -1,9 +1,9 @@
-# hide-and-seek-robot
+# Hide-and-Seek Robot
 Many similarities of the hide-and-seek game can be found in the interactions between humans, or robots and humans, in urban spaces, similar to looking for a person in a crowded urban environment (Goldhoorn et al. 2014). It is suggested that the game of hide-and-seek is an ideal domain for studying cognitive functions in robots and it is a basic mechanism for human robot interaction in mobile robotics, because hide-and-seek requires the robot to navigate, search, interact on, and predict actions of the opponent (Johansson and Balkenius 2005).   
 
 In this project we demonstrate an ability to program on Arduino &amp; Raspberry Pi and communicate between the two systems, program in Python, focusing on OpenCV, and implement deep learning models on the robots to identify faces from purely visual inputs.
 
-![alt text](https://raw.githubusercontent.com/username/projectname/branch/path/to/img.png)
+![Demoing our Robot at the MAT End of Year Show](https://github.com/ChristinaLast/hide-and-seek-robot/blob/master/robot_demo.jpg)
 
 # Concept
 The concept is as follows: the project uses machine learning classification techniques to successfully find a hider by identifying the hider’s face, and move towards the human (the robot’s method of seeking). The visual information captured by the Pi camera is used to train the robot to find a hider. Through the artistic novelty of human-robot playing we explore the real-world implications in supporting human disaster response teams. For example, one of the many practical applications of this experiment is to find persons; as hide-and-seek could be seen as a simplification of search-and-rescue.
